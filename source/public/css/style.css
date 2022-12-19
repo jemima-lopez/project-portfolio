@@ -90,7 +90,7 @@ label{
 
 h3 {
     font-family: 'Playfair Display';
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .wrapper{
     display: flex;
@@ -215,12 +215,22 @@ h2 {
     transform: translateY(-5px);
 }
 
-.img2 {
+#php:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+#net:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.img3 {
     display: flex;
     justify-content: center;
 }
 
-.img2 img {
+.img3 img {
     margin-bottom: 20px;
     border: solid 1px rgba(255, 255, 255, 0.3);
     border-radius: 8px;
@@ -228,6 +238,72 @@ h2 {
     position: relative;
 }
 
-.img2 img:hover {
+.img3 img:hover {
     transform: scale(1.2);
+}
+
+/*projects*/
+
+.img4 {
+    display: flex;
+    align-items: center;
+}
+
+.img4 h3 {
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.img4 img {
+    width: 500px;
+    height: 250px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    justify-content: right;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    transition: all 500ms;
+}
+
+.img4 img:hover {
+    transform: scale(1.2);
+}
+
+.img5 {
+    display: flex;
+    align-items: center;
+}
+
+.img5 h3 {
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.img5 img {
+    width: 500px;
+    height: 250px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    justify-content: right;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    transition: all 500ms;
+}
+
+.img5 img:hover {
+    transform: scale(1.2);
+}
+
+.imgAll {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.img7 {
+    margin-left: 50px;
 }
