@@ -11,5 +11,4 @@ router.get('/contact', (req, res) => res.render('contact', { title: 'Contact me'
 
 router.get('/example', (req, res) => res.render('example', { title: 'Projects'}))
 
-
 export default router
