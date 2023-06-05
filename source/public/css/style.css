@@ -186,6 +186,11 @@ h2 {
     transform: translateY(-5px);
 }
 
+#react:hover{
+    color: #fff;
+    transform: translateY(-5px);
+}
+
 #java:hover{
     color: #fff;
     transform: translateY(-5px);
